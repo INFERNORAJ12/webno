@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?familly=Poppins:wght@200;400;700&display=swap');
+.hidden
+{
+    opacity: 0;
+    transition:all 4s;
+
+}
+.show{
+    opacity: 1;
+}
+.top{
+    
+    display: inline-block;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.he{
+    display: inline-block;
+    font-size: 30px;    
+   padding: 4px;
+   margin:20px;
+}
+.left-div {
+    float: left;
+    margin-left: 0;
+    width: 100%;
+  }
+  .test{
+    
+
+    width:90%;
+    height:82%;
+    float: left;
+    clear: both;
+  }
+  .subdiv{
+   
+    height:100%;
+    width:50%;
+    background-color: rgb(247, 209, 209);
+    float:left;
+  }
+.button{
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button:hover,
+.button:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+ 
